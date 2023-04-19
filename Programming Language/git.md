@@ -39,31 +39,32 @@
 
 # Commands
 
-- `git branch` -> used to see the list of your branches. 
+1. `git branch` -> used to see the list of your branches. 
 ```
 $ git branch
 * main
 ```
 (Note: The `*` before the branch `main` is an IDENTIFIER that tells you which branch you are currently on.)
   
-- `git checkout -b (name-of-the-branch)` -> used to create a new branch.
+2. `git checkout -b (name-of-the-branch)` -> used to create a new branch.
 ```
 $ git checkout -b test-branch
 switched to a new branch 'test-branch'
 ```
-- `git checkout (name-of-the-branch)` -> used to switch branches. 
+3. `git checkout (name-of-the-branch)` -> used to switch branches. 
 ```
 $ git checkout main
 switched to a branch 'master'
 ```
 (Tips: if you have a long branch name, for example: `test-branch-number1`. You can write `git checkout number1` and then press `TAB` it will then automatically writes the full name of the branch.)
-- `git diff (name-of-the-branch)` -> used to compare the `branch` you're currently in and the `new branch` to see the changes that you made in the said `new branch`.
+   
+   4. `git diff (name-of-the-branch)` -> used to compare the `branch` you're currently in and the `new branch` to see the changes that you made in the said `new branch`.
 ```
 /c/git/Practice (main)
 
 $ git diff test-branch
 ```
-- `git push -u origin (name-of-the-branch)` -> used to set the remote an upstream for the `new branch` and push the changes made into the `Remote Repository`.
+  5. `git push -u origin (name-of-the-branch)` -> used to set the remote an upstream for the `new branch` and push the changes made into the `Remote Repository`.
 ```
 $ git push -u origin test-branch
 ```
@@ -71,14 +72,14 @@ $ git push -u origin test-branch
 
 (Tip: After you're done. Naturally, you'll have to delete the `used branch` and start the new process over if you want to not directly make changes in the main branch.)
 
-- `git merge (name-of-the-branch)` -> used to directly merge the changes made in the `new branch` to the `main branch`.
+  6. `git merge (name-of-the-branch)` -> used to directly merge the changes made in the `new branch` to the `main branch`.
 
 ```
 /c/git/Practice (main)
 
 $ git merge test-branch
 ```
-- `git branch -d (name-of-the-branch)` -> used to delete a certain `branch`.
+  7. `git branch -d (name-of-the-branch)` -> used to delete a certain `branch`.
 
 ```
 $ git branch -d test-branch
