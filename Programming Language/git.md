@@ -95,5 +95,5 @@ Deleted branch test-branch (was ---).
 - NOTE: `HEAD` is used to tell the machine to reset a commit while the `~1` tells the machine to go 1 more further past the recent commit
   - to reset commits from way back further, use `git log`, copy the `Hash` of the said commit, then use `git reset (hash)`.
 
-3. `git reset --hard (hash)` -> used all latest commits up until the written `Hash` which technically feels like going back in time..
+3. `git reset --hard (hash)` -> used to reset all latest commits up until the written `Hash` which technically feels like going back in time..
 
