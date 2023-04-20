@@ -86,3 +86,14 @@ $ git branch -d test-branch
 
 Deleted branch test-branch (was ---).
 ```
+
+# Undoing in Git (Commands)
+
+1. `git reset` or `git reset (name of the file)` -> used to reset staged/added files.
+2. `git reset HEAD~1` -> used to reset committed changes.
+
+- NOTE: `HEAD` is used to tell the machine to reset a commit while the `~1` tells the machine to go 1 more further past the recent commit
+  - to reset commits from way back further, use `git log`, copy the `Hash` of the said commit, then use `git reset (hash)`.
+
+3. `git reset --hard (hash)` -> used all latest commits up until the written `Hash` which technically feels like going back in time..
+
