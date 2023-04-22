@@ -21,3 +21,20 @@
 ## *Take note:*
 
 - One missing thing in a code line can result into a whole list of `errors` when validating it. So After validating the file and it shows an error, visual code tells you that by making a certain `prompt` to turn into either color red/pink so make sure to follow it and DON'T FORGET TO ALWAYS VALIDATE YOUR WEBPAGE.
+
+# Text Basics
+
+- `<h1></h1>`
+  - `<h2>,/h2>`
+  - `<h3></h3>` -> There's a heirarchy between these elements so you have to organize your elements by having `h1` as first then `h2` etc...
+- `<hr>` -> makes a horizontal line.
+- `<br>` -> this is used to make a paragraph inside the `<p>` element to not have `white space` or separate the other paragraph.
+-  `&nbsp;` -> used to add more additional space to a text.
+-  `&lt;` -> used to make a `<` symbol.
+-  `&gt;` -> used to make a `>` symbol.
+-  `&copy;` -> used to add a `copyright` symbol.
+-  `<address>` -> used to add a specific location and tells the browser that this is an address.
+-  `<!--Any kind of text-->` -> used to write a note or a reminder to yourself inside the code editor (not visible to the website interface).
+-  `<abbr title="example"> Ex. </abbr>` -> used to see the meaning of an abbrevated word.
+
+# List Types
