@@ -38,3 +38,56 @@
 -  `<abbr title="example"> Ex. </abbr>` -> used to see the meaning of an abbrevated word.
 
 # List Types
+
+1. Ordered list -> It makes an ordered list/numerical list
+```html
+<ol>
+        <li>example name 1</li>
+        <li>example name 2</li>
+        <li>example name 3</li>      
+</ol>
+```
+### _Result:_
+```
+1. example name 1
+2. example name 2
+3. example name 3
+```
+
+
+2. Unordered list -> It makes an unordered/non numerical list.
+
+```html
+<ul>
+  <li>example name 1
+  <li>example name 2
+  <li>example name 3
+<ul>     
+```
+### _Result:_
+
+```
+・example name 1
+・example name 2
+・example name 3
+```
+
+3. Detailed List -> It makes a detailed list and it consist with two additional elements which is DESCRIPTION TERM `dt` and DESCRIPTION DETAIL `dd`.
+
+```html
+<dl>
+  <dt>Example Term 1</dt>
+  <dd>Example detail 1</dd>
+
+  <dt>Example Term 2</dt>
+  <dd>Example detail 2</dd>
+```
+
+### _Result:_
+
+```
+Example Term 1
+       Example detail 1
+Example Term 2
+       Example detail 2
+```
