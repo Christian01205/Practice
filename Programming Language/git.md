@@ -29,7 +29,7 @@
 
 # Git Branching
 
-[Git-branching-example](/Practice/Screenshot%20(1).png)
+[Git-branching-example](/Practice/Screenshot(1).png)
 
 - Git branching allows the developers to create and use a separate new branch. This makes the developer able to make code changes that doesn't affect the codes in the `main(default)` branch. 
 - You can call the new branches `feature branch/es`. They are used to try out new things before adding the changes in code to the `main branch`.
