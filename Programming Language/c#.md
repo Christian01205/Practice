@@ -93,3 +93,111 @@ NOTE: There are 3 types of data types for decimals which are "float - double - d
 ## Additional:
 
 - `bool *name of the boolean = *either true or false;` - a boolean is a data type that is a true or false value.
+
+# Working with strings
+
+  1. `\n` - is used to separate words in a string and makes a new line for that.
+  
+  For example: 
+  
+  >Console.WriteLine("I am\nAwesome");
+```
+I am
+Awesome
+```
+  2. `\` - you can use this to write a literal `"` or a `quotation mark` and not turning it into a command or to an error.
+  
+   For example: 
+   
+   >Console.WriteLine("I am\"Awesome");
+
+   Result:
+```
+I am"Awesome
+```
+ 3. `*variable name.Length` - is used to determine how long or how many letters are in a `string`. 
+
+  For example: 
+  
+  >string title = "I am Vengeance";
+  >
+  >Console.WriteLine( title.Length );
+
+  Result:
+  ```
+  14
+  ```
+  4. `*variable name.ToUpper()` - is used to make the words inside the string be all CAPS. and to have it all on lowercase, just use `ToLower` instead of the former.
+
+ For example:
+ >string title = "I am Vengeance";
+ >
+ >Console.WriteLine( title.ToUpper() );
+
+ Result:
+ ```
+ I AM VENGEANCE
+ ```
+ 5. `*variable name.Contains()` - is used to identify whether a certain word is inside a string or not.
+
+For Example: 
+>string title = "I am Vengeance";
+>
+>Console.WriteLine( title.Contains("Vengeance") );
+
+Result:
+```
+True
+```
+### _**Note**: If the word it not there, then the result would be `False`_.
+
+6. `*variable name[ *index/number order of the first letter of a word]` - is used to indentify a character in a string.
+
+For Example: 
+
+>string title = "I am Vengeance";
+>
+>Console.WriteLine( title[5] );
+
+Result:
+```
+V
+```
+
+### _**Note:** Every character starts at `0` not `1`._
+
+7. `*variable name.IndexOf()` - is used to indentify which index position is a word in.
+
+For Example:
+>string title = "I am Vengeance";
+>
+>Console.WriteLine( title.IndexOf("Vengeance") );
+
+Result:
+```
+5
+```
+### _**Note:** If you want to indentify a single character, you have to use `'` or a single quotation mark_.
+
+8. `*variable name.Substring()` - is used to grab one single part of a string by writing the index position of the word you want to grab.
+
+For Example:
+
+>string title = "I am Vengeance";
+>
+>Console.WriteLine( title.Substring(5) );
+
+Result:
+```
+Vengeance
+```
+### Another Example:
+>Console.WriteLine( title.Substring(5, 3) );
+
+Result:
+```
+Ven
+```
+### _The use for that is to grab a part of an index but only take `3` characters off of it._
+
+# Working with Numbers
