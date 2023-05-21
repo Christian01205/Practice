@@ -149,7 +149,7 @@ Result:
 ```
 True
 ```
-### _**Note**: If the word it not there, then the result would be `False`_.
+### _**Note**: If the word is not there, then the result would be `False`_.
 
 6. `*variable name[ *index/number order of the first letter of a word]` - is used to indentify a character in a string.
 
@@ -198,6 +198,6 @@ Result:
 ```
 Ven
 ```
-### _The use for that is to grab a part of an index but only take `3` characters off of it._
+### _The use for that is to grab a part of an word inside a string but only take `3` characters off of it._
 
 # Working with Numbers
