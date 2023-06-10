@@ -151,7 +151,7 @@ True
 ```
 ### _**Note**: If the word is not there, then the result would be `False`_.
 
-6. `*variable name[ *index/number order of the first letter of a word]` - is used to indentify a character in a string.
+6. `*variable name[ *index/number order of a character]` - is used to indentify a character in a string.
 
 For Example: 
 
